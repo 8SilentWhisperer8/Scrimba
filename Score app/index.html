@@ -4,49 +4,38 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
             <div>
                 <h3>Home Team</h3>
                 <div class="home-score">
-                    12
+                    <h3 id="score-1"></h3>
                 </div>
                 <div>
                     <p>Points: </p>
                 </div>
                 <div class="increase-btns">
-
-                    <div class="increase-1">
-                        +1
-                    </div>
-                    <div class="increase-2">
-                        +2
-                    </div>
-                    <div class="increase-3">
-                        +3
-                    </div>
+                    <button onclick="addHomeOne()" id="increase-home-1"></button>
+                    <button onclick="addHomeTwo()" id="increase-home-2"></button>
+                    <button onclick="addHomeThree()" id="increase-home-3"></button>
                 </div>              
             </div>
             <div>
                 <h3>Away Team</h3>
-
                 <div class="away-score">
-                    16
+                    <h3 id="score-2"></h3>
                 </div>
                 <div>
                     <p>Points: </p>
                 </div>
                 <div class="increase-btns">
-                    <div class="increase-1">
-                        +1
+                    <div onclick="addOne()" id="increase-away-1">
                     </div>
-                    <div class="increase-2">
-                        +2
+                    <div id="increase-away-2">
                     </div>
-                    <div class="increase-3">
-                        +3
+                    <div id="increase-away-3">
                     </div>
                 </div>     
             </div>

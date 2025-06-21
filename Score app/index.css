@@ -9,7 +9,7 @@ body {
     text-align: center;
     width: 600px;
     height: 400px;
-    background-color: orangered;
+    background-color: rgb(33, 32, 77);
 }
 
 h3 {
@@ -65,5 +65,9 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+p {
+    color: white;
 }
 

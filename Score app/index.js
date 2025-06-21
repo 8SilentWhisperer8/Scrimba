@@ -56,6 +56,8 @@ function addAwayThree (){
 //Reset score funtionality
 
 function resetScore () {
+    score1 = 0
+    score2 = 0
     document.getElementById("score-1").textContent = "0";
     document.getElementById("score-2").textContent = "0";
 }

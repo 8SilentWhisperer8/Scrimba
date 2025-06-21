@@ -8,6 +8,7 @@
     </head>
     <body>
         <div class="container">
+            <!-- Home section -->
             <div>
                 <h3>Home Team</h3>
                 <div class="home-score">
@@ -20,8 +21,23 @@
                     <button onclick="addHomeOne()" id="increase-home-1"></button>
                     <button onclick="addHomeTwo()" id="increase-home-2"></button>
                     <button onclick="addHomeThree()" id="increase-home-3"></button>
-                </div>              
+                </div>
+                <!-- <div>
+                    <p>Fouls: </p>
+                </div>
+                <div class="increase-btns">
+                    <button onclick="addHomeOne()" id="increase-home-1"></button>
+                    <button onclick="addHomeTwo()" id="increase-home-2"></button>
+                    <button onclick="addHomeThree()" id="increase-home-3"></button>
+                </div>                     -->
             </div>
+
+            <!-- Reset section -->
+            <div class="reset-container">
+                <button onclick="resetScore()" id="reset">Reset</button>
+            </div>
+
+            <!-- Away section -->
             <div>
                 <h3>Away Team</h3>
                 <div class="away-score">
@@ -31,13 +47,18 @@
                     <p>Points: </p>
                 </div>
                 <div class="increase-btns">
-                    <div onclick="addOne()" id="increase-away-1">
-                    </div>
-                    <div id="increase-away-2">
-                    </div>
-                    <div id="increase-away-3">
-                    </div>
-                </div>     
+                    <button onclick="addAwayOne()" id="increase-away-1"></button>
+                    <button onclick="addAwayTwo()" id="increase-away-2"></button>
+                    <button onclick="addAwayThree()" id="increase-away-3"></button>
+                </div> 
+                <!-- <div>
+                    <p>Fouls: </p>
+                </div>
+                <div class="increase-btns">
+                    <button onclick="addHomeOne()" id="increase-home-1"></button>
+                    <button onclick="addHomeTwo()" id="increase-home-2"></button>
+                    <button onclick="addHomeThree()" id="increase-home-3"></button>
+                </div>     -->
             </div>
         </div>
         <script src="index.js"></script>
